@@ -1,7 +1,7 @@
 import zooAnimales
 class Animal:
     _totalAnimales = 0
-    def _init_(self, nombre, edad, habitat, genero, zona = None):
+    def __init__(self, nombre, edad, habitat, genero, zona = None):
         self._nombre = nombre
         self._edad = edad
         self._habitat = habitat
