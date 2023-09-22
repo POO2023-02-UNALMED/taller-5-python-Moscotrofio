@@ -11,7 +11,7 @@ class Reptil (Animal):
         Reptil._listado.append(self)
 
     @classmethod
-    def cantidaReptiles(cls):
+    def cantidadReptiles(cls):
         return len(Reptil._listado)
 
     def movimiento():
