@@ -10,7 +10,7 @@ class Ave (Animal):
         Ave._listado.append(self)
 
     @classmethod
-    def cantidadAves():
+    def cantidadAves(cls):
         return len(Ave._listado)
 
     def movimiento():
